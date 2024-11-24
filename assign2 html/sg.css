@@ -1,0 +1,467 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Matemasie', sans-serif; /* Body text font */
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #ff004f, #ffe600);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Fun font for navigation */
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+/* Hero Section */
+.start {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #fff;
+    background: linear-gradient(to bottom, #ff004f, #ffe600), 
+                url('img/poprocks-background.jpg') no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.start h1 {
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Playful font for heading */
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px #000;
+}
+
+.start p {
+    font-family: 'Matemasie', sans-serif; /* Clean font for text */
+    font-size: 1.5rem;
+}
+
+.start button {
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Button text */
+    background-color: #fff;
+    color: #ff004f;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.start button:hover {
+    background-color: #ff004f;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* About Section */
+#about {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: linear-gradient(45deg, #ffe600, #ff004f);
+}
+
+#about h2 {
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Fun font for heading */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-family: 'Matemasie', sans-serif; /* Clean font for text */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Flavors Section */
+#flavors {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #ffe600);
+}
+
+#flavors h2 {
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Fun font */
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.flavors-list li h3 {
+    font-family: 'Edu AU VIC WA NT Dots', sans-serif; /* Fun font for flavor names */
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.flavors-list li p {
+    font-family: 'Matemasie', sans-serif; /* Clean font for flavor descriptions */
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Footer */
+footer p {
+    font-family: 'Matemasie', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Matemasie', sans-serif;
+    color: #333;
+    background-color: transparent;
+    line-height: 1.6;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.start-bg {
+    background: url('img/htassign11 (1).jpg') no-repeat center center/cover;
+    position:fixed;
+    overflow:hidden;
+}
+
+/* Header Styles */
+header {
+    color: #e51cba;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigation */
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f605f2;
+    text-shadow: 1px 1px 3px rgba(104, 92, 92, 0.5);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #37d03c;
+}
+
+/* .start Section */
+.start {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #db17ba;
+    text-shadow: 1px 1px 3px rgba(111, 94, 94, 0.5);
+}
+
+.start h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 1rem;
+}
+
+.start p {
+    font-size: 1.5rem;
+}
+
+.start button {
+    background-color: #fff;
+    color: #ff004f;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.start button:hover {
+    background-color: #ff004f;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Matemasie', sans-serif;
+    color: #333;
+    background-color: transparent;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh; /* Ensure the body takes up the full viewport */
+}
+
+/* Background Image */
+.start-bg {
+    background: url('img/htassign11\ \(1\).jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+  
+    top: 0;
+    left: 0;
+  
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    color: #e51cba;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem; /* Space below the header */
+}
+
+/* Logo Styling */
+header .logo img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem; /* Space between logo and navigation */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f605f2;
+    text-shadow: 1px 1px 3px rgba(104, 92, 92, 0.5);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #37d03c;
+}
+
+/* .start Section */
+.start {
+    text-align: center;
+    padding: 2rem;
+    color: #db17ba;
+    text-shadow: 1px 1px 3px rgba(111, 94, 94, 0.5);
+}
+
+/* Headings and Text */
+.start h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 1rem;
+}
+
+.start p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem; /* Space below paragraph */
+}
+
+/* Button Styling */
+.start button {
+    background-color: #fff;
+    color: #ff004f;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.start button:hover {
+    background-color: #ff004f;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+/* About Section */
+#about {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: linear-gradient(45deg, #ffe600, #ff004f);
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Matemasie', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Shared Background Style */
+.start, #about {
+    background: url('img/htassign11 (1).jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* Parallax effect for both sections */
+    color: #fff; /* Adjust text color for readability */
+    text-align: center;
+    padding: 4rem 1rem; /* Add consistent padding for both sections */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    color: #e51cba;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin-bottom: 2rem;
+}
+
+/* Logo Styling */
+header .logo img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f605f2;
+    text-shadow: 1px 1px 3px rgba(104, 92, 92, 0.5);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #37d03c;
+}
+
+/* Start Section */
+.start h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 1rem;
+}
+
+.start p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.start button {
+    background-color: #fff;
+    color: #ff004f;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.start button:hover {
+    background-color: #ff004f;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* About Section */
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px #000;
+}
+
+#about img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}

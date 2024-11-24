@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pop Rocks - The Original Popping Candy!">
+    <title>Pop Rocks - Rock Your Taste Buds</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Matemasie&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/custom-jq.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Matemasie&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="start-bg">
+        <header>
+            <div class="logo">
+                <img src="img/htassugn1.jpg" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#flavors">Flavors</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="start">
+            <h1> Pop Rocks</h1>
+            <p>Rock Your Taste Buds!</p>
+            <button onclick="window.location.href='#shop'">Shop Now</button>
+        </section>
+    </div>
+    
+
+    <main>
+   
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="slideright" ></h2>About Pop Rocks</h2>
+            <p class="slideright">Pop Rocks is the original popping candy, a true icon of fun and flavor! Since its debut in the 1970s, it has thrilled candy lovers with its signature fizz and crackle. Experience the magic with every bite!</p>
+            <img src="img/htassign2.jpg" alt="Assorted Pop Rocks">
+        </section>
+
+        <!-- Flavors Section -->
+        <section id="flavors">
+            <h2>Explore the Flavors</h2>
+            <ul class="flavors-list">
+                <li>
+                    <h3>Original Strawberry</h3>
+                    <img src="img/htassign5.jpg" alt="Strawberry Pop Rocks">
+                </li>
+                <li>
+                    <h3>Blue Razz</h3>
+                    <img src="img/htassign7.jpg" alt="Blue Razz Pop Rocks">
+                </li>
+                <li>
+                    <h3>Watermelon</h3>
+                    <img src="img/htassign8.jpg" alt="Watermelon Pop Rocks">
+                </li>
+                <li>
+                    <h3>Green Apple</h3>
+                    <img src="img/htassign9.jpg" alt="Green Apple Pop Rocks">
+                </li>
+                <li>
+                    <h3>Tropical Punch</h3>
+                    <img src="img/htassign10.jpg" alt="Tropical Punch Pop Rocks">
+                </li>
+            </ul>
+            <h2>Special Flavors</h2>
+            <ul class="special-flavors">
+                <li>
+                    <h3>Cotton Candy</h3>
+                    <img src="img/htassign6.jpg" alt="Cotton Candy Pop Rocks">
+                </li>
+                <li>
+                    <h3>Bubble Gum</h3>
+                    <img src="img/htassign3.jpg" alt="Bubble Gum Pop Rocks">
+                </li>
+            </ul>
+        </section>
+
+        <!-- Shop Section -->
+        <section id="shop">
+            <h2>Shop Pop Rocks</h2>
+            <p>Ready to stock up on your favorite candy? Click the button below to explore our store.</p>
+            <button onclick="window.location.href='https://poprockscandy.com/shop'">Visit Store</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="company-info">
+                <img src="img/htassign2.jpg" alt="Pop Rocks Logo">
+                <p>&copy; 2024 Pop Rocks Co. All Rights Reserved.</p>
+            </div>
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form action="submit-form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
